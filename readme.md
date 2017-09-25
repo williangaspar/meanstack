@@ -16,7 +16,7 @@ Como a validação para o projeto consiste apenas na verificação de preenchime
 
 ## Frontend
 
-![layout](layout.jpg)
+![layout](layout.png)
 
 O frontend foi feito com Angular 1.x e está localizado na pasta `public/app`. A página principal do sistema está na pasta `public/app/delivery`.
 É bem comum estruturar aplicação AngularJs com uma pasta para controller, outra para services, view e etc. Porém optei por organizar a aplicação por funcionalidade e não por tipo de arquivo.
