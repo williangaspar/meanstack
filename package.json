@@ -1,0 +1,22 @@
+{
+  "name": "route-easy",
+  "version": "1.0.0",
+  "description": "RouteEasy challenge-fullstack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willian Gaspar",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2"
+  }
+}

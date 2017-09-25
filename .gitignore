@@ -1,0 +1,8 @@
+node_modules
+build
+*.so
+*.bin
+*.out
+*.node
+*.log
+package-lock.json

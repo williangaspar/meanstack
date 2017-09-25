@@ -1,0 +1,101 @@
+*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+#mapId { 
+  height: 320px; 
+  margin-bottom: 7px;
+}
+
+#buscar {
+  cursor: pointer;
+}
+
+space-bottom {
+  margin: 5px;
+}
+
+button {
+  text-transform: uppercase; 
+  width: 100%;
+}
+
+th {
+  background-color: #AFAFAF;
+  color: white;
+}
+
+.panel {
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: gainsboro;
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+  overflow:auto;
+  padding:2em;
+}
+.cadastro{
+  width:22%;
+}
+.consulta{
+  width:75%;  
+}
+
+#LEFTY,
+.lefty{
+  float:left;
+}
+#RIGHTY,
+.righty{
+  float:right;
+}
+#CLEARLY,
+  footer,
+.clearly{
+  clear:both;
+}
+
+input {
+  height: 36px !important;
+}
+
+@media 
+screen and (orientation : portrait),
+screen and (max-width : 1000px){
+  .cadastro{
+    width:30%;
+  }
+  .consulta{
+    width:65%;  
+  }
+}
+
+@media 
+screen and (max-width : 680px){
+  .cadastro{
+    width:100%;
+  }
+  .consulta{
+    width:100%;  
+  }
+}
+
+@media 
+screen and (max-width : 500px){
+  .cadastro{
+    width:100%;
+  }
+  .consulta{
+    width:100%;  
+  }
+
+  table {
+		overflow-x: auto;
+		display: block;
+	}
+}
